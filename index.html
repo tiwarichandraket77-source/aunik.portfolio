@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aunik Sinha | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Aunik</div>
+
+        <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+
+        <div class="floating music1">🎵</div>
+        <div class="floating music2">🎶</div>
+        <div class="floating music3">🎨</div>
+        <div class="floating music4">✨</div>
+
+    <div class="hero-content">
+
+  <img src="Aunik.jpg" alt="Aunik Sinha" class="profile-pic">
+    <h1>Hello, I'm <span>Aunik Sinha</span></h1>
+
+    <p class="profession">
+        I'm a <span id="changing-text">Artist 🎨</span>
+    </p>
+
+    <button onclick="scrollToSection('contact')">
+        Contact Me
+    </button>
+
+</div> 
+
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Educational Qualification</h2>
+
+        <div class="card">
+            <h3>Student</h3>
+            <p>
+                Passionate learner with interests in art,
+                music, singing and creative writing.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skill">
+            <p>Art & Sketching</p>
+            <div class="bar">
+                <div class="fill art"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>Singing</p>
+            <div class="bar">
+                <div class="fill singing"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>Lyric Writing</p>
+            <div class="bar">
+                <div class="fill lyrics"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>Sports</p>
+            <div class="bar">
+                <div class="fill sports"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="hobbies">
+
+        <h2 class="section-title">My Hobbies</h2>
+
+        <div class="hobby-grid">
+
+            <div class="hobby">
+                <h3>🎨 Art</h3>
+                <p>Creating sketches and artworks.</p>
+            </div>
+
+            <div class="hobby">
+                <h3>🎤 Singing</h3>
+                <p>Expressing emotions through music.</p>
+            </div>
+
+            <div class="hobby">
+                <h3>✍️ Lyric Writing</h3>
+                <p>Writing meaningful lyrics and poems.</p>
+            </div>
+
+            <div class="hobby">
+                <h3>⚽ Sports</h3>
+                <p>Enjoying games and teamwork.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="goals">
+
+        <h2 class="section-title">Goals</h2>
+
+        <div class="card">
+            <p>
+                To inspire people through creativity,
+                art and music while continuously
+                improving my skills.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea placeholder="Your Message"></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </section>
+
+    <footer>
+        © 2026 Aunik Sinha | Portfolio
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
